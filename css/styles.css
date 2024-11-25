@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 100%;
 }
 
 a {
@@ -13,23 +12,6 @@ ul {
   list-style-type: none;
 }
 
-li {
-  display: inline-block;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -37,7 +19,6 @@ header {
   color: #4d5ae5;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-right: 56px;
   font-weight: 700;
 }
 
@@ -45,17 +26,10 @@ header {
   color: #2e2f42;
 }
 
-.navbar-menu {
-  display: flex;
-  gap: 40px;
-}
-
 .menu-link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  line-height: 150%;
   letter-spacing: 0.02em;
 }
 
@@ -65,16 +39,10 @@ header {
   color: #404bbf;
 }
 
-.address-menu {
-  display: flex;
-  gap: 40px;
-}
-
 .address-menu a {
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
   letter-spacing: 0.02em;
 }
 
@@ -90,36 +58,22 @@ header {
 
 .main-scr {
   background-color: #2e2f42;
-  width: 100%;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
 }
 
 .main-scr h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  width: 496px;
   letter-spacing: 0.02em;
-  line-height: 1.07;
   color: white;
 }
 
 button {
   background-color: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  height: 56px;
   cursor: pointer;
   border: none;
   color: white;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
@@ -128,145 +82,66 @@ button:focus {
   background-color: #404bbf;
 }
 
-.advantages {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 0;
-}
-
 .advantages h2 {
   opacity: 0;
-}
-
-.advantages ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.advantages li {
-  padding: 20px;
-  width: calc(25% - 24px);
-  box-sizing: border-box;
-  text-align: left;
 }
 
 .advantages h3 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  line-height: 120%;
   letter-spacing: 0.02em;
-  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .advantages p {
   font-size: 16px;
-  line-height: 24px;
-  line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .our-team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  padding: 40px 0;
   background-color: #f4f4fd;
 }
 
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-  line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
 }
 
-.our-team ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.our-team li {
-  box-sizing: border-box;
-  text-align: left;
-  background-color: #ffffff;
-}
-
 .our-team h3 {
-  text-align: center;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  line-height: 120%;
   letter-spacing: 0.02em;
-  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .our-team p {
-  text-align: center;
   font-size: 16px;
-  line-height: 24px;
-  line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .our-portfolio {
-  padding: 40px 0;
   text-align: center;
-  justify-content: center;
 }
 
 .our-portfolio h2 {
   text-transform: capitalize;
   font-size: 36px;
-  line-height: 40px;
-  line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
   margin-bottom: 50px;
-}
-
-.our-portfolio ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.our-portfolio li {
-  flex: 0 0 30%;
-  box-sizing: border-box;
-  text-align: center;
 }
 
 .our-portfolio h3 {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
-  line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-top: 10px;
@@ -274,16 +149,12 @@ button:focus {
 
 .our-portfolio p {
   font-size: 16px;
-  line-height: 24px;
-  line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 footer {
-  height: 312px;
   background-color: #2e2f42;
-  padding: 80px 0px 0 156px;
 }
 
 footer .logo {
@@ -301,9 +172,6 @@ footer .logo span {
 
 footer p {
   font-size: 16px;
-  line-height: 24px;
-  line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
 }
